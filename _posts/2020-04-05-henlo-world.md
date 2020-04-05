@@ -4,7 +4,7 @@ title: "Henlo World"
 date: 2020-04-05
 ---
 
-I'm putting together this bare-bones blog so that I have a place to put my posts during my time at the [Recurse Center}(http://www.recurse.com) (and perhaps even after that).
+I'm putting together this bare-bones blog so that I have a place to put my posts during my time at the [Recurse Center](http://www.recurse.com) (and perhaps even after that).
 
 I just finished my first week, and everything about it was overwhelming and exhausting in the best possible way. Because of the Coronavirus outbreak, I'm a part of the first fully-remote batch. Coming in, I expected time management to be tricky because I'm in my apartment, where all of the video games and yarn and books are. But instead of getting distracted by things in my apartment, I found myself being excited about more things at RC than I could possibly do in any given day. I wanted to work on my project (more on that soon), meet everyone, attend every discussion, read every Zulip and blog post... and I did a lot of all of that, in addition to some after-hours remote hangouts.
 

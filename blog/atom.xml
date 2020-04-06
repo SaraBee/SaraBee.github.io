@@ -6,9 +6,9 @@ layout: feed
 
 	<title>Sara Bee's Blog</title>
 	<link href="http://sarabee.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://sarabee.github.io/blog"/>
+	<link href="http://sarabee.github.io/blog/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://sarabee.github.io/blog</id>
+	<id>http://sarabee.github.io/blog/</id>
 	<author>
 		<name>Sara Bobo</name>
 		<email>sarabobo@gmail.com</email>

@@ -69,17 +69,17 @@ their onboard memory by the tinkerer (that's me) and can run continuously as lon
 as the board is receiving power. I plugged my sensor into my Arduino's first analog pin (number 0), and so the sketch to read its output once every 100ms and write it
 out to the serial port looks like
 this:
-        ```arduino
-        void setup() {
+```arduino
+void setup() {
         Serial.begin(9600); // open serial port, set the baud rate as 9600 bps
-        }
-        void loop() {
+}
+void loop() {
         int val;
         val = analogRead(0); //connect sensor to Analog 0
         Serial.println(val); //print the value to serial port
         delay(100);
-        }
-        ```
+}
+```
 
 Something that might not make sense yet is this serial business. What's
 a serial port, and why is the sketch writing to it? Serial communciation is

@@ -3,7 +3,6 @@ layout: post
 title: "Plant Tweets, Part 1"
 date: 2020-04-19
 ---
-## Plant Tweets, Part 1
 
 ![](/images/monstera.jpg)
 

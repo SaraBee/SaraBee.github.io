@@ -6,13 +6,15 @@ date: 2020-04-19
 
 ![](/images/monstera.jpg)
 
-This past week my monstera deliciosa, a lovely tropical houseplant, started to
-tweet. This is the first of two posts on this here skeleton of a blog showing
+This past week my monstera deliciosa, a lovely tropical houseplant, [started to
+tweet](https://twitter.com/monsterasays). This is the first of two posts on this here skeleton of a blog showing
 how I helped it get its voice out into the internet. First, we'll take a look at the hardware and code
 needed to read my plant's mind; Part 2 will look at how those thoughts are
 broadcast to the world. These posts should make sense even if you've never
 played with hardware before, so please @ me
 ([@SaraBee](https://twitter.com/SaraBee)) if you have questions!
+
+![](/images/tweets.jpg)
 
 A month ago, I was shopping for a cheap soil moisture meter to help me care
 for my growing army of plants. In my search results were hits for the simple

@@ -35,7 +35,7 @@ demonstrates this particular failure mode of resistive sensors. Needless to
 say, I went capacitive, since I was planning to leave my sensor in-place over
 long periods of time.
 
-![](images/sensor.jpg)
+![](/images/sensor.jpg)
 
 The sensor on its own wouldn't really get me anywhere, all it does is output
 an analog value (like 273, or 418, or 550) for something else to read. I had
@@ -54,7 +54,7 @@ I bought my sensor, and got as far as soldering header pins on them so that
 I could seat them on a breadboard before realising that they were both
 duds. Bummer!
 
-![](images/adc.jpg)
+![](/images/adc.jpg)
 
 All was not lost, however. In my bin of hardware toys was an [Arduino
 Uno](https://store.arduino.cc/usa/arduino-uno-rev3),

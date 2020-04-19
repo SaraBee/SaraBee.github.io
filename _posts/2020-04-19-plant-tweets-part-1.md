@@ -35,7 +35,7 @@ demonstrates this particular failure mode of resistive sensors. Needless to
 say, I went capacitive, since I was planning to leave my sensor in-place over
 long periods of time.
 
-![](sensor.jpg)
+![](images/sensor.jpg)
 
 The sensor on its own wouldn't really get me anywhere, all it does is output
 an analog value (like 273, or 418, or 550) for something else to read. I had

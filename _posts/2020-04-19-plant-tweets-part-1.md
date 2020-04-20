@@ -12,13 +12,13 @@ broadcast to the world. These posts should make sense even if you've never
 played with hardware before, so please @ me
 ([@SaraBee](https://twitter.com/SaraBee)) if you have questions!
 
-<img src="/images/tweets.jpg" width="500" />
-
 A month ago, I was shopping for a cheap soil moisture meter to help me care
 for my growing army of plants. In my search results were hits for the simple
 mechanical sensors I was looking for, but also inexpensive hardware sensors for use in
 projects with, for example, Arduinos. Of course, my first thought was: "My
 plant needs to connect to the internet."
+
+<img src="/images/tweets.jpg" width="500" />
 
 In researching which sensors to buy, I saw that there were two types
 available: resistive and capacitive. Resistive sensors work by measuring the

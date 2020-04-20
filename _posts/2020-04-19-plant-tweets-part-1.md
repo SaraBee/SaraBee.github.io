@@ -3,7 +3,7 @@ layout: post
 title: "Plant Tweets, Part 1"
 date: 2020-04-19
 ---
-<img src="/images/monstera.jpg" class="right" />
+<img src="/images/monstera.jpg" width="180" class="right" />
 This past week my monstera deliciosa, a lovely tropical houseplant, [started to
 tweet](https://twitter.com/monsterasays). This is the first of two posts on this here skeleton of a blog showing
 how I helped it get its voice out into the internet. First, we'll take a look at the hardware and code
@@ -34,7 +34,7 @@ demonstrates this particular failure mode of resistive sensors. Needless to
 say, I went capacitive, since I was planning to leave my sensor in-place over
 long periods of time.
 
-![](/images/sensor.jpg)
+<img src = "/images/sensor.jpg" width="500" />
 
 The sensor on its own wouldn't really get me anywhere, all it does is output
 an analog value (like 273, or 418, or 550) for something else to read. I had
@@ -46,6 +46,8 @@ and other stuff). One small problem: rpi's GPIO pins only work with digital
 input and output, not analog like my sensor's output. If I plugged the sensor directly into my rpi, it wouldn't
 be able to make sense of the signal.
 
+
+<img src="/images/adc.jpg" width="180" class="right" />
 My first thought was to use a small, inexpensive component in between the two
 called an ADC - analog-to-digital converter - which would convert the sensor's
 signal into something that my rpi could use. I bought two of these when
@@ -68,6 +70,7 @@ their onboard memory by the tinkerer (that's me) and can run continuously as lon
 as the board is receiving power. I plugged my sensor into my Arduino's first analog pin (number 0), and so the sketch to read its output once every 100ms and write it
 out to the serial port looks like
 this:
+
 ```arduino
 void setup() {
         Serial.begin(9600); // open serial port, set the baud rate as 9600 bps
@@ -92,7 +95,7 @@ handily, over USB (which, remember, is short for universal *serial* bus).
 Plugging the Arduino into my Raspberry Pi via USB gets the signal from my
 plant into Linux land, which opens up all kinds of possibilities for using the
 data in code. In Part 2, I'll talk through how I explored just one of those
-possibilities, hooking this business up to Twitter.
+possibilities, hooking this mess up to Twitter.
 
 
 

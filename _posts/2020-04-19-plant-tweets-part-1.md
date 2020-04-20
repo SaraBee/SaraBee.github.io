@@ -14,7 +14,7 @@ broadcast to the world. These posts should make sense even if you've never
 played with hardware before, so please @ me
 ([@SaraBee](https://twitter.com/SaraBee)) if you have questions!
 
-![](/images/tweets.jpg =800x)
+<img src="/images/tweets.jpg" width="800">
 
 A month ago, I was shopping for a cheap soil moisture meter to help me care
 for my growing army of plants. In my search results were hits for the simple

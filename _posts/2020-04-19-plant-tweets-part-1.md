@@ -28,8 +28,8 @@ conductivity of the soil in which it is placed by running electricity through
 it, and if you remember back to
 high school science class you may remember something something electrolysis
 something something ionization (that's about where I'm at) -- basically the
-electricty creates a chemical reaction that removes copper from the sensor
-over time. Capacitive sensors, on the other hand, do not have exposed
+electricty creates a chemical reaction with the water and metal that removes copper from the sensor
+over time, eventually causing it to stop working. Capacitive sensors, on the other hand, do not have exposed
 electrodes, and so should not fail due to electrolysis over time. I really
 enjoyed [this video](https://www.youtube.com/watch?v=udmJyncDvw0), which gets into how each sensor type works and
 demonstrates this particular failure mode of resistive sensors. Needless to

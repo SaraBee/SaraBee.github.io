@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Sara Bee
 ---
 
 <img src="/images/sarabee.jpg" class="right" />

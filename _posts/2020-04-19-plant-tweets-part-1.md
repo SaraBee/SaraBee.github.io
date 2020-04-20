@@ -55,8 +55,6 @@ I bought my sensor, and got as far as soldering header pins on them so that
 I could seat them on a breadboard before realising that they were both
 duds. Bummer!
 
-![](/images/adc.jpg)
-
 All was not lost, however. In my bin of hardware toys was an [Arduino
 Uno](https://store.arduino.cc/usa/arduino-uno-rev3),
 which was a good fit for this project for a number of reasons. First, Arduinos

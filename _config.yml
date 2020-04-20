@@ -1,3 +1,8 @@
-name: Sara Bobo
-markdown: kramdown
-remote_theme: ronv/sidey
+name: Sara Bee
+url: http://sarabee.github.io/
+description: Some words and things
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

@@ -3,6 +3,7 @@ url: http://sarabee.github.io/
 description: Some words and things
 permalink: /:year/:month/:day/:title/
 paginate: 10
+paginate_path: "/blog/page:num/"
 
 gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

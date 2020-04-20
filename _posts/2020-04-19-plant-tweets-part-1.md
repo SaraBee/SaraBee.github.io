@@ -3,9 +3,7 @@ layout: post
 title: "Plant Tweets, Part 1"
 date: 2020-04-19
 ---
-
-![](/images/monstera.jpg)
-
+<img src="/images/monstera.jpg" class="right" />
 This past week my monstera deliciosa, a lovely tropical houseplant, [started to
 tweet](https://twitter.com/monsterasays). This is the first of two posts on this here skeleton of a blog showing
 how I helped it get its voice out into the internet. First, we'll take a look at the hardware and code
@@ -14,7 +12,7 @@ broadcast to the world. These posts should make sense even if you've never
 played with hardware before, so please @ me
 ([@SaraBee](https://twitter.com/SaraBee)) if you have questions!
 
-<img src="/images/tweets.jpg" width="640">
+<img src="/images/tweets.jpg" width="500" />
 
 A month ago, I was shopping for a cheap soil moisture meter to help me care
 for my growing army of plants. In my search results were hits for the simple

@@ -17,13 +17,14 @@ need to find the Arduino here in Linux land. Conveniently, Arduino has a set of 
 [arduino-cli](https://arduino.github.io/arduino-cli/getting-started/). We can
 look for any boards connected to the Raspberry Pi using the command
 `arduino-cli board list`:
-<img src="/images/board-list.png" align="left"/>
+
+<img src="/images/board-list.png"/>
 
 Cool, it's in there, and now we know which port it's hooked up to! Next, let's listen in on what's being sent from the Arduino. Because in Linux our serial ports are represented by files, we can watch the
 latest data stream to the command line using `tail -f /dev/ttyACM0`:
 
-<img src="/images/tail-serial-output.png" align="left"/><br/>
-<br/>
+<img src="/images/tail-serial-output.png" align="left"/>
+
 You may notice that this output contains not just moisture levels but also
 temperature and humidity; this is because I [added a sensor](https://github.com/sparkfun/SparkFun_HTU21D_Breakout_Arduino_Library) since my last post.
 

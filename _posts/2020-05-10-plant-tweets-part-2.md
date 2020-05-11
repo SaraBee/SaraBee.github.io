@@ -22,8 +22,8 @@ look for any boards connected to the Raspberry Pi using the command
 Cool, it's in there, and now we know which port it's hooked up to! Next, let's listen in on what's being sent from the Arduino. Because in Linux our serial ports are represented by files, we can watch the
 latest data stream to the command line using `tail -f /dev/ttyACM0`:
 
-<img src="/images/tail-serial-output.png" align="left"/>
-
+<img src="/images/tail-serial-output.png" align="left"/><br/>
+<br/>
 You may notice that this output contains not just moisture levels but also
 temperature and humidity; this is because I [added a sensor](https://github.com/sparkfun/SparkFun_HTU21D_Breakout_Arduino_Library) since my last post.
 

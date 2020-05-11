@@ -17,12 +17,12 @@ need to find the Arduino here in Linux land. Conveniently, Arduino has a set of 
 [arduino-cli](https://arduino.github.io/arduino-cli/getting-started/). We can
 look for any boards connected to the Raspberry Pi using the command
 `arduino-cli board list`:
-<img src="/images/board-list.png" />
+<img src="/images/board-list.png" align="left"/>
 
 Cool, it's in there, and now we know which port it's hooked up to! Next, let's listen in on what's being sent from the Arduino. Because in Linux our serial ports are represented by files, we can watch the
 latest data stream to the command line using `tail -f /dev/ttyACM0`:
 
-<img src="/images/tail-serial-output.png" />
+<img src="/images/tail-serial-output.png" align="left"/>
 
 You may notice that this output contains not just moisture levels but also
 temperature and humidity; this is because I [added a sensor](https://github.com/sparkfun/SparkFun_HTU21D_Breakout_Arduino_Library) since my last post.
@@ -43,11 +43,13 @@ sample = ser.read(200) # pull 200 bytes off serial
 print(sample)
 {% endhighlight %}
 
+
 Our output is a bytes object that looks like:
 
-{% highlight %}
+{% highlight python %}
 b'\r\nmoisture:345\r\nhumidity:63.1\r\ntemp:21.1\r\np:21.1\r\nmoisture:345\r\nhumidity:60.9\r\ntemp:21.1\r\nmoisture:345\r\nhumidity:61.9\r\ntemp:21.1\r\nmoisture:345\r\nhumidity:63.1\r\ntemp:21.1\r\np:21.1\r\nmoisture:345\r\nhumidity'
 {% endhighlight %}
+
 
 Cool cool. If you're like me, you might be more comfortable manipulating strings
 than byte objects, so let's decode it using utf-8 and turn it into a list of
@@ -60,6 +62,7 @@ sample = ser.read(200) # pull 200 bytes off serial
 
 sample_list = sample.decode('utf-8').split('\r\n')
 {% endhighlight %}
+
 
 Rad. Now we've got a list of individual readings that each look something like
 `temp:21.1` or `moisture:345`. However, because we're reading bytes off
@@ -95,6 +98,7 @@ for reading in sample_list:
                 elif key in ["humidity", "temp"]:
                         readings[key].append(float(val))
 {% endhighlight %}
+
 
 In my actual implementation I do a little bit more to ensure I succesfully was
 able to cast the values to ints or floats, but that's basically it. I then

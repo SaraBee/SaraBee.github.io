@@ -25,7 +25,6 @@ latest data stream to the command line using `tail -f /dev/ttyACM0`:
 
 <img src="/images/tail-serial-output.png" align="left"/>
 <br clear="left">
-
 You may notice that this output contains not just moisture levels but also
 temperature and humidity; this is because I [added a sensor](https://github.com/sparkfun/SparkFun_HTU21D_Breakout_Arduino_Library) since my last post.
 

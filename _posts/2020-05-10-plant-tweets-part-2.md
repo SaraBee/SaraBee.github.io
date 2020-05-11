@@ -34,14 +34,14 @@ writing Python, and there's a very straightforward Python library called
 looking for. To grab some bytes off of our serial port buffer and print to the
 command line, our Python looks like this:
 
-```python
+{% highlight python %}
 import serial
 
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
 sample = ser.read(200) # pull 200 bytes off serial
 
 print(sample)
-```
+{% endhighlight %}
 
 Our output is a bytes object that looks like:
 
@@ -111,7 +111,7 @@ scraped together before the timeout we set when we instantiate Serial the line
 above that. This behavior will all depend on how frequently you're writing out data on
 the Arduino side, your timeout, and how frequently you're reading on the RPi
 side. I am super curious about how reading from the buffer clears it
-out, and while I haven't yet found resources on exactly this topic I did find the [Serial](https://www.tldp.org/HOWTO/Serial-HOWTO.html) Linux HOWTO doc to be an interesting read.
+out, and while I haven't yet found resources on exactly this topic I did find the Linux [Serial HOWTO doc](https://www.tldp.org/HOWTO/Serial-HOWTO.html) to be an interesting read.
 
 At this point, we've successfully liberated our readings from the bytes
 streaming in over serial and turned them into something we can use in our

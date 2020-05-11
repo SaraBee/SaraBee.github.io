@@ -45,28 +45,28 @@ print(sample)
 
 Our output is a bytes object that looks like:
 
-```
+{% highlight %}
 b'\r\nmoisture:345\r\nhumidity:63.1\r\ntemp:21.1\r\np:21.1\r\nmoisture:345\r\nhumidity:60.9\r\ntemp:21.1\r\nmoisture:345\r\nhumidity:61.9\r\ntemp:21.1\r\nmoisture:345\r\nhumidity:63.1\r\ntemp:21.1\r\np:21.1\r\nmoisture:345\r\nhumidity'
-```
+{% endhighlight %}
 
 Cool cool. If you're like me, you might be more comfortable manipulating strings
 than byte objects, so let's decode it using utf-8 and turn it into a list of
 readings:
 
-```python
+{% highlight python %}
 import serial
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
 sample = ser.read(200) # pull 200 bytes off serial
 
 sample_list = sample.decode('utf-8').split('\r\n')
-```
+{% endhighlight %}
 
 Rad. Now we've got a list of individual readings that each look something like
 `temp:21.1` or `moisture:345`. However, because we're reading bytes off
 a buffer, we might also sometimes get an incomplete reading that looks like `moisture:3`
 or `emp:21.1`. In my actual implementation, I only split on newline (`\n`) and used the carriage return character (`\r`) to indicate that we were looking at the complete value for a reading before stripping it off. I could then split each reading again on the colon and place the pieces into keys and values in a dictionary:
 
-```python
+{% highlight python %}
 import serial
 
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
@@ -94,7 +94,7 @@ for reading in sample_list:
                         readings["moisture".append(int(val))
                 elif key in ["humidity", "temp"]:
                         readings[key].append(float(val))
-```
+{% endhighlight %}
 
 In my actual implementation I do a little bit more to ensure I succesfully was
 able to cast the values to ints or floats, but that's basically it. I then

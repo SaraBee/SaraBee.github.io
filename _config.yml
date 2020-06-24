@@ -4,6 +4,14 @@ description: Some words and things
 permalink: /:year/:month/:day/:title/
 paginate: 10
 paginate_path: "/blog/page:num/"
+collections:
+    projects:
+        output: true
+        order:
+            genderizer.md
+            monstera.md
+            now-playing.md
 
+plugins: [jekyll-paginate]
 gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']

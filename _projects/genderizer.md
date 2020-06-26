@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: project
 title: Genderizer
-image: /images/genderizer.png
+image: /images/genderizer.jpg
 blurb: A Chrome extension that color-codes German nouns by their gender
+github: https://github.com/SaraBee/Genderizer
 ---
-Wow some content! Here I'm talking about my project and how cool it is,
-probably with some more images and stuff.
+Genderizer is a Chrome extension that alters the color of nouns in German and Spanish text according to their grammatical gender with the aim of building stronger associations and assisting in recall. Users can customize the colors for each gender to help make the associations more personalized and to improve accessibility.

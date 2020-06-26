@@ -198,9 +198,9 @@ function drawStave() {
 }
 
 function drawChart(chart) {
-  background(220);
+  background(0, 42, 53);
   for (let y = 0; y < chart.length; y++) {
-    for (let x = 0; x < 20; x++) {
+    for (let x = 0; x < chart[0].length; x++) {
       let xpos = x * square_dim;
       let ypos = y * square_dim;
 
@@ -235,13 +235,14 @@ function invertPixel() {
 }
 
 function setup() {
-  canvas = createCanvas(400, 700);
+  buildChart();
+  height = chart.length * square_dim;
+  canvas = createCanvas(500, height);
   canvas.mousePressed(invertPixel);
 
   text_input = createInput();
   draw_button = createButton("draw");
   draw_button.mousePressed(drawStave);
 
-  buildChart();
   drawStave();
 }

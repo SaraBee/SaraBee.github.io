@@ -4,6 +4,7 @@ title: Stave Builder
 image: /images/stavebuilder.png
 blurb: A colorwork chart generator for knitting secret messages
 github: https://github.com/SaraBee/SaraBee.github.io/blob/master/assets/js/stavebuilder.js
+thumbnail: /images/thumbs/stave-builder.jpg
 ---
 Stave Builder is a colorwork chart generator for
 knitting secret messages. Try entering a word or phrase in the text box and clicking

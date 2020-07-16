@@ -4,6 +4,7 @@ title: Now Playing
 image: /images/now-playing.png
 blurb: WQXR now playing info right in my tmux status bar!
 github: https://github.com/SaraBee/nowplaying
+thumbnail: /images/thumbs/now-playing.jpg
 ---
 As a daily listener of WQXR, I often find myself wondering about the music I'm
 listening to, but am too impatient to wait for the announcer to come on the

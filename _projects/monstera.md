@@ -5,6 +5,7 @@ image: /images/tweets.jpg
 blurb: My houseplant tweets about its soil moisture and humidity levels several times daily.
 github: https://github.com/SaraBee/monstera
 thumbnail: /images/thumbs/monstera.jpg
+priority: 3
 ---
 As an anxious new plant parent, I wanted to make sure I wasn't over- or
 under-watering my beautiful *monstera deliciosa* plant. I decided to give my

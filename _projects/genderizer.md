@@ -5,6 +5,7 @@ image: /images/genderizer-screenshot.jpg
 blurb: A Chrome extension that color-codes German nouns by their gender
 github: https://github.com/SaraBee/Genderizer
 thumbnail: /images/thumbs/genderizer.jpg
+priority: 2
 ---
 <img src="/images/genderizer-screenshot.jpg" width="500"/>
 

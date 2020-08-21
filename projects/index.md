@@ -2,7 +2,8 @@
 layout: default
 title: Projects
 ---
-{% for project in site.projects %}
+{% assign ordered-projects = site.projects | sort: "priority" %}
+{% for project in ordered-projects %}
 <div style="display:block;height:155px">
   <a href="{{ project.url }}"><img src="{{project.thumbnail}}" class="left thumbnail"/></a>
   <h2>

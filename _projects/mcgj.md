@@ -5,6 +5,7 @@ image: /images/mcgj.jpg
 blurb: A Flask web app for running collaborative playlist parties
 github: https://github.com/SaraBee/MCGJ
 thumbnail: /images/thumbs/mcgj.jpg
+priority: 1
 ---
 <img src="/images/mcgj.jpg" width="500"/>
 

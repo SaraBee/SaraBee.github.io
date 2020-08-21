@@ -2,7 +2,7 @@
 layout: project
 title: Monstera Says
 image: /images/tweets.jpg
-blurb: My houseplant tweets about its soil moisture and humidity levels several times daily.
+blurb: My houseplant tweets about its soil moisture and humidity levels several times daily
 github: https://github.com/SaraBee/monstera
 thumbnail: /images/thumbs/monstera.jpg
 priority: 3

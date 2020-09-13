@@ -165,5 +165,5 @@ a comfortable distance from its edges.
 I'm happy with where this project is at; the text is clear and legible from
 anywhere in my living room, and my Saturday morning listening experience has
 been greatly improved. Eventually, it'll get custom wooden housing, which will
-be its own post, I'm sure!
-
+be its own post, I'm sure! Feel free to dig around in [the project's repo on
+GitHub](https://github.com/SaraBee/nowplaying) to get an even better idea of how this all works.

@@ -75,7 +75,7 @@ set -g status-right '#[bg=#d7ff5f] #(python3
 {% endhighlight %}
 
 This overwrote the clock that was there by default, so I added one back in. By
-default, scripts run in `.tmux.com` are executed once every 15 seconds, which
+default, scripts run in `.tmux.conf` are executed once every 15 seconds, which
 was more than fast enough for my purpose. My status bar then looks like this:
 
 <img src="/images/now-playing.jpg">

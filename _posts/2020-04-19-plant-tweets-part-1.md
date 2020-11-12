@@ -92,7 +92,7 @@ handily, over USB (which, remember, is short for universal *serial* bus).
 
 Plugging the Arduino into my Raspberry Pi via USB gets the signal from my
 plant into Linux land, which opens up all kinds of possibilities for using the
-data in code. In Part 2, I'll talk through how I explored just one of those
+data in code. In [Part 2](/2020/05/10/plant-tweets-part-2/), I'll talk through how I explored just one of those
 possibilities, hooking this mess up to Twitter.
 
 

@@ -8,7 +8,7 @@ title: Sara Bee
 from the computer, she is probably playing cello, knitting, powerlifting,
 cooking, or riding her bicycle.
 
-Sara recently completed her batch at the [Recurse Center](https://www.recurse.com/),
+Sara participated in the Spring 2020 batch at the [Recurse Center](https://www.recurse.com/),
 where she focused on becoming an even better programmer through study and project
 work. You can read about what she's been working on over in the
 [archives](/archives).
